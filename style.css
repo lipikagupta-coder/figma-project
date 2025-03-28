@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 15px;
+    font-family: "Roboto" serif;
+    font-weight: 400px;
+    line-height: 1.73;
+}
+a{
+    text-decoration: none;
+}
+ul li{
+    list-style: none;
+}
+img{
+    max-width: 100%;
+    height:auto;
+    object-fit: cover;
+}
+h1,h2{
+    font-size: 72px;
+    font-weight: bolder;
+    color:white;
+}
+h3, .h3-heading{
+    font-size: 24px;
+    font-weight: bolder;
+    color:WHITE;
+}
+p{
+    font-size: 20px;
+    color:white;
+}
+span{
+    font-size: 72px;
+    color:#D09172;
+}
+.navcontainer{
+    max-width: 1470;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.container{
+    max-width:1170px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.header{
+    position:absolute;
+    z-index: 999;
+    background: white;
+    width:100%;
+    padding: 20px 0;
+    top:0;
+    left:0;
+    right:0;
+}
+.navbar ul , .navbox{
+    display: flex;
+}
+.navbar{
+    position:relative;
+    align-items: center;
+}
+.navbox{
+    justify-content: space-evenly;
+    align-items: center;
+}
+.navbar li a{
+    color:black;
+    padding: 0 25px;
+    text-transform: uppercase;
+}
+.navbar li a:hover{
+    color:brown;
+}
+.btn{
+    display: inline-block;
+    background:linear-gradient(-72deg,#F4E07A,#C1963C);
+    color:black;
+    padding: 5px 30px;
+    border-radius: 20px;
+    text-transform: uppercase;
+}
+.btn:hover{
+    background:linear-gradient(-72deg,red,blue);
+}
+.logo a{
+    display: block;
+    max-width: 152px;
+}
+.section{
+    position: absolute;
+    width:100%;
+    background: url(images/Mask\ group.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 862px;
+    display: flex;
+    align-items: center;
+}
+.banner{
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.block{
+    position:relative;
+    width:1px;
+    height:1px;
+}
+.block::before{
+    position:absolute;
+    content:"";
+    width:2px;
+    height:30px;
+    background:yellow;
+    background-repeat:no-repeat;
+    background-position:center center;
+    background-size:cover;
+    
+    left:-5px;
+}
+.menu-btn{
+    display: inline-block;
+    background:linear-gradient(-72deg,#F4E07A,#C1963C);
+    color:black;
+    padding: 5px 30px;
+    border-radius: 20px;
+    text-transform: uppercase;
+}
+.cmn-btn{
+    display: inline-block;
+    background:linear-gradient(-72deg,#F4E07A,#C1963C);
+    color:black;
+    padding:1px 10px;
+    border-radius: 20px;
+    text-transform: uppercase;
+}
+.content span{
+    font-size: 20px;
+    color:white;
+}
+
+.text{
+    max-width: 100%;
+    height:auto;
+}
